@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* html */
+body {
+    margin: 0px;
+    background: url(../image/back.gif);
+}
+
+/* header */
+.header {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header-inner h1 {
+    color: #6c6c6c;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+/* nav */
+.nav {
+    text-align: center;
+}
+
+.nav-inner .prefectures {
+    color: #333333;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nav-inner select {
+    width: 200px;
+    height: 30px;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nav-inner select#prefectures {
+    color: #6c6c6c;
+    font-size: large;
+    padding-left: 5px;
+}
+
+.nav-inner input#send-btn {
+    color: #333333;
+    width: 100px;
+    height: 35px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 10px;
+    font-size: large;
+    letter-spacing: 2px;
+}
+
+/* main */
+.main-inner {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.main-inner p {
+    color: #333333;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main-inner .Container {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.main-inner p#prefectures_ {
+    font-size: 20px;
+    margin-right: 120px;
+}
+
+.main-inner p#current_date {
+    font-size: 15px;
+    margin-left: 120px;
+    vertical-align: bottom;
+}
+
+.main-inner p#prefectures_total {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.main-inner p#total {
+    font-size: 20px;
+}
+
+.main-inner p#death {
+    font-size: 20px;
+}
+
+.main-inner p#error {
+    font-size: 20px;
+}
